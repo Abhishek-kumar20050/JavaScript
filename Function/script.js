@@ -22,3 +22,10 @@ function table(n){
     }
 }
 table(2);
+
+// Arrow Function
+const addArrow = (a, b) => {
+  return a + b;
+};
+
+console.log(addArrow(2,2));
