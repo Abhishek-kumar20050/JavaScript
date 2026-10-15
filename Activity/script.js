@@ -6,7 +6,7 @@ btn.addEventListener("click", function(){
     h3.innerText = randomColor;
     let div = document.querySelector("div");
     div.style.backgroundColor = randomColor;
-})
+});
 
 function getRandomColor(){
     let red = Math.floor(Math.random() * 255);
